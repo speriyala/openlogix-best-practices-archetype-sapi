@@ -38,7 +38,7 @@
             <cloudHubDeployment>
             <uri>https://anypoint.mulesoft.com</uri>
             <muleVersion>4.4.0</muleVersion>
-            <username>speriyala2</username>
+            <username>speriyala3</username>
             <password>Psmohan@234</password>
             <environment>Sandbox</environment>
             <applicationName>openlogix-bestpractice-archetype-sapi</applicationName>
