@@ -42,7 +42,7 @@
             <password>Psmohan@234</password>
             <environment>Sandbox</environment>
             <applicationName>openlogix-bestpractice-archetype-sapi</applicationName>
-            <businessGroup>c1dccc4a-5976-48bb-a0f4-327848ba097b</businessGroup>
+            <businessGroup>18597255-2c03-46ab-a04b-1edc2205a2f8</businessGroup>
             <workerType>MICRO</workerType>
             <workers>1</workers>
             <objectStoreV2>true</objectStoreV2>

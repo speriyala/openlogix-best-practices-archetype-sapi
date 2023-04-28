@@ -28,6 +28,28 @@
 				<artifactId>maven-clean-plugin</artifactId>
 				<version>3.2.0</version>
 			</plugin>
+			<!-- new code added for cicd pipeline execution -->
+				<plugin>
+		    <groupId>org.mule.tools.maven</groupId>
+		    <artifactId>mule-maven-plugin</artifactId>
+		    <version>${mule.maven.plugin.version}</version>
+		    <extensions>true</extensions>
+		    <configuration>
+            <cloudHubDeployment>
+            <uri>https://anypoint.mulesoft.com</uri>
+            <muleVersion>4.4.0</muleVersion>
+            <username>speriyala3</username>
+            <password>Psmohan@234</password>
+            <environment>Sandbox</environment>
+            <applicationName>openlogix-bestpractice-archetype-sapi</applicationName>
+            <businessGroup>18597255-2c03-46ab-a04b-1edc2205a2f8</businessGroup>
+            <workerType>MICRO</workerType>
+            <workers>1</workers>
+            <objectStoreV2>true</objectStoreV2>
+        </cloudHubDeployment>
+    	</configuration>
+		</plugin>
+			
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
